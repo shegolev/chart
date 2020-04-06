@@ -1,0 +1,119 @@
+<div class="container">
+    <div class="page-header">
+        <h1> Premiere chart </h1>
+    </div>
+    <div class="panel">
+        <div class="filter-form">
+            <input class="form-search" [(ngModel)]="filterByName" (ngModelChange)="filteredBy()" placeholder = "Name" />
+            <select class="form-genre" [(ngModel)]="filterByGenre" (ngModelChange)="filteredBy()">
+                <option [ngValue]="null" disabled selected>Genre</option>
+                <option value="animation">Animation</option>
+                <option value="comedy">Comedy</option>
+                <option value="documentary">Documentary</option>
+                <option value="drama">Drama</option>
+                <option value="horror">Horror</option>
+                <option value="crime">Crime</option>
+                <option value="fantasy">Fantasy</option>
+                <option [ngValue]="null">All</option>
+            </select>
+            <select class="form-genre" [(ngModel)]="filterByNetwork" (ngModelChange)="filteredBy()">
+                <option [ngValue]="null" disabled selected>Network</option>
+                <option value="Netflix">Netflix</option>
+                <option value="HBO">HBO</option>
+                <option value="AMC">AMC</option>
+                <option value="BBS">BBS</option>
+                <option value="A+E">A+E</option>
+                <option value="Showtime">Showtime</option>
+                <option [ngValue]="null">All</option>
+            </select>
+            <select class="form-premiere-year" [(ngModel)]="filterByYear" (ngModelChange)="filteredBy()">
+                <option [ngValue]="null" disabled selected>Premiere Year</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+                <option value="2015">2015</option>
+                <option [ngValue]="null">All</option>
+            </select>
+        </div>
+        <div class="label-form">
+            <div class="label-form_wrapper name">
+                <div class="label-form_title">
+                    Name
+                </div>
+                <div class="sorting-controls">
+                    <i class="fa fa-chevron-up" (click)="sortBy('title','up')"></i>
+                    <i class="fa fa-chevron-down" (click)="sortBy('title','down')"></i>
+                </div>
+            </div>
+            <div class="label-form_wrapper season ">
+                <span class="label-form_title">
+                    Season
+                </span>
+                <div class="sorting-controls">
+                    <i class="fa fa-chevron-up" (click)="sortBy('season','up')"></i>
+                    <i class="fa fa-chevron-down" (click)="sortBy('season','down')"></i>
+                </div>
+            </div>
+            <div class="label-form_wrapper network text-center">
+                <span class="label-form_title">
+                    Network
+                </span>
+            </div>
+            <div class="label-form_wrapper premiere">
+                <div class="label-form_title">
+                    Premiere
+                </div>
+                <div class="sorting-controls">
+                    <i class="fa fa-chevron-up" (click)="sortBy('premiere','up')"></i>
+                    <i class="fa fa-chevron-down" (click)="sortBy('premiere','down')"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="chart-ribbon">
+
+            <div class="list_wrapper" *ngFor="let item of pagedItems">
+                <div class="name">
+                    <div class="name-title">{{item.title}}</div>
+                    <div class="list_wrapper_inline" *ngFor="let type of item.type">
+                        <span class="genre" [ngClass]="setClass(type)">{{type}}</span>
+                    </div>
+                </div>
+                <div class="season">{{item.season}}</div>
+                <div class="network text-center">
+                        <div class="list_wrapper_inline" *ngFor="let network of item.network; let isLast=last">
+                            <span *ngIf="item.network.length > 1 && !isLast">{{network}}, </span>
+                            <span *ngIf="item.network.length == 1 || isLast">{{network}} </span>
+                        </div>
+                </div>
+                <div class="premiere">{{item.premiere}}</div>
+            </div>
+
+        </div>
+        <div class="col-md-5 col-md-offset-4 text-center">
+            <ul *ngIf="pager.pages && pager.pages.length" class="pagination">
+
+                <li [ngClass]="{disabled:pager.currentPage === 1}">
+                    <a (click)="setPage(pager.currentPage - 1)"><i class="fa fa-chevron-left"></i> </a>
+                </li>
+                <li *ngFor="let page of pager.pages" [ngClass]="{active:pager.currentPage === page}">
+                    <a (click)="setPage(page)">{{page}}</a>
+                </li>
+                <li [ngClass]="{disabled:pager.currentPage === pager.totalPages}">
+                    <a (click)="setPage(pager.currentPage + 1)"><i class="fa fa-chevron-right"></i></a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="col-md-3 pull-right text-right">
+            <ul class="pagination count-pages-selector">
+                <li class="page-item" [ngClass]="{active:itemsPerPage === 5}" (click)= "showOnPage(5)"><span>5</span></li>
+                <li class="page-item" [ngClass]="{active:itemsPerPage === 10}" (click)= "showOnPage(10)"><span>10</span></li>
+                <li class="page-item" [ngClass]="{active:itemsPerPage === 25}" (click)= "showOnPage(25)"><span>25</span></li>
+            </ul>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,417 @@
+{
+  "serialsList":[
+  {
+    "type": ["drama", "documentary"],
+    "season": 1,
+    "title": "Родина",
+    "network": ["AMC", "Netflix"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["comedy"],
+    "season": 8,
+    "title": "Теория большого взрыва",
+    "network": ["Netflix"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["fantasy", "horror"],
+    "season": 1,
+    "title": "Bloodride",
+    "network": ["AMC", "HBO"],
+    "premiere": "10.02.2020"
+  },
+  {
+    "type": ["drama", "fantasy"],
+    "season": 2,
+    "title": "Королевские гонки РуПола",
+    "network": ["Netflix"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "horror"],
+    "season": 1,
+    "title": "Убийства Вальгаллы",
+    "network": ["Showtime", "Netflix"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["comedy", "animation"],
+    "season": 2,
+    "title": "Южный Парк",
+    "network": ["Showtime", "Netflix", "HBO"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "horror"],
+    "season": 4,
+    "title": "Побег",
+    "network": ["Showtime", "Netflix", "HBO"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "horror"],
+    "season": 3,
+    "title": "Викинги",
+    "network": ["A+E"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "crime"],
+    "season": 2,
+    "title": "Шерлок",
+    "network": ["HBO", "Fox"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "horror"],
+    "season": 1,
+    "title": "Unorthodox",
+    "network": ["BBS"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "fantasy"],
+    "season": 1,
+    "title": "Защитник",
+    "network": ["HBO", "AMC"],
+    "premiere": "10.02.2018"
+  },
+  {
+    "type": ["drama", "horror"],
+    "season": 1,
+    "title": "Убийство на пляже",
+    "network": ["BBS", "AMC"],
+    "premiere": "10.02.2015"
+  },
+  {
+    "type": ["drama", "horror"],
+    "season": 2,
+    "title": "Фарго",
+    "network": ["HBO", "Netflix"],
+    "premiere": "10.02.2018"
+  },
+  {
+    "type": ["drama", "horror"],
+    "season": 1,
+    "title": "The Investigator: A British Crime Story",
+    "network": ["HBO", "Netflix", "AMC"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "horror"],
+    "season": 1,
+    "title": "Озарк",
+    "network": ["AMC"],
+    "premiere": "10.02.2020"
+  },
+  {
+    "type": ["drama", "crime"],
+    "season": 1,
+    "title": "Dirty Money",
+    "network": ["HBO", "Netflix", "AMC"],
+    "premiere": "10.02.2017"
+  },
+  {
+    "type": ["comedy", "horror"],
+    "season": 2,
+    "title": "Бруклин 9-9",
+    "network": ["HBO", "Netflix", "AMC"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "comedy"],
+    "season": 3,
+    "title": "Wrong Man",
+    "network": ["AMC"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "horror"],
+    "season": 4,
+    "title": "Ugly Delicious",
+    "network": ["AMC"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "crime"],
+    "season": 1,
+    "title": "Готэм",
+    "network": ["AMC"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "crime"],
+    "season": 5,
+    "title": "Лучше звоните Солу",
+    "network": ["AMC", "Netflix"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "horror"],
+    "season": 3,
+    "title": "Гриффины",
+    "network": ["Netflix"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "horror"],
+    "season": 1,
+    "title": "Tiger King: Murder, Mayhem and Madness",
+    "network": ["Netflix", "HBO"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["comedy", "horror"],
+    "season": 1,
+    "title": "Эш против Зловещих мертвецов",
+    "network": ["Netflix", "HBO", "AMC"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "horror"],
+    "season": 1,
+    "title": "Гиена",
+    "network": ["AMC"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "documentary", "fantasy"],
+    "season": 4,
+    "title": "Чужестранка",
+    "network": ["AMC"],
+    "premiere": "10.02.2019"
+  },
+    {
+      "type": ["drama", "documentary", "fantasy"],
+      "season": 3,
+      "title": "Чужестранка",
+      "network": ["AMC"],
+      "premiere": "10.02.2018"
+    },
+  {
+    "type": ["drama", "horror", "fantasy"],
+    "season": 1,
+    "title": "Люцифер",
+    "network": ["AMC"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["horror"],
+    "season": 1,
+    "title": "Castlevania",
+    "network": ["AMC"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "horror"],
+    "season": 1,
+    "title": "Чёрный список",
+    "network": ["AMC"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "horror", "fantasy"],
+    "season": 4,
+    "title": "Незнакомка",
+    "network": ["AMC"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama"],
+    "season": 1,
+    "title": "Поза",
+    "network": ["AMC"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama"],
+    "season": 2,
+    "title": "Kalifat",
+    "network": ["AMC"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "fantasy"],
+    "season": 1,
+    "title": "Звездный путь: Дискавери",
+    "network": ["AMC"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "documentary"],
+    "season": 1,
+    "title": "Корона",
+    "network": ["AMC"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "horror", "fantasy"],
+    "season": 1,
+    "title": "Древние",
+    "network": ["AMC"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "fantasy"],
+    "season": 1,
+    "title": "Женщины ночи",
+    "network": ["AMC"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "horror", "fantasy"],
+    "season": 1,
+    "title": "Рагнарёк",
+    "network": ["AMC"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["fantasy", "comedy"],
+    "season": 1,
+    "title": "Конец ***го мира",
+    "network": ["AMC", "Netflix"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "horror", "documentary", "crime"],
+    "season": 1,
+    "title": "Нарко",
+    "network": ["HBO", "Netflix"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "fantasy"],
+    "season": 1,
+    "title": "Невероятное",
+    "network": ["AMC", "Netflix"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "comedy"],
+    "season": 1,
+    "title": "Компьютерщики",
+    "network": ["Netflix"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["comedy"],
+    "season": 1,
+    "title": "С значит Семья",
+    "network": ["Netflix"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["comedy"],
+    "season": 1,
+    "title": "На районе",
+    "network": ["AMC"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "documentary"],
+    "season": 1,
+    "title": "Queen Sono",
+    "network": ["AMC", "Netflix"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["comedy"],
+    "season": 1,
+    "title": "Принц из Беверли-Хиллз",
+    "network": ["Netflix"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama"],
+    "season": 1,
+    "title": "Лесные разбойники",
+    "network": ["AMC", "Netflix"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["comedy"],
+    "season": 1,
+    "title": "Доктор Мартин",
+    "network": ["HBO"],
+    "premiere": "10.02.2020"
+  },
+  {
+    "type": ["drama", "fantasy"],
+    "season": 1,
+    "title": "Последнее королевство",
+    "network": ["AMC", "Netflix", "HBO"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["documentary"],
+    "season": 1,
+    "title": "После жизни",
+    "network": ["BBS"],
+    "premiere": "08.03.2019"
+  },
+  {
+    "type": ["drama", "fantasy"],
+    "season": 1,
+    "title": "Звездный путь",
+    "network": ["HBO"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "horror"],
+    "season": 1,
+    "title": "Когда они нас видят",
+    "network": ["Netflix"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["documentary"],
+    "season": 1,
+    "title": "Car Masters: Rust to Riches",
+    "network": ["BBS"],
+    "premiere": "01.01.2019"
+  },
+  {
+    "type": ["comedy"],
+    "season": 4,
+    "title": "Хэппи!",
+    "network": ["Netflix", "HBO"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "comedy"],
+    "season": 1,
+    "title": "Don't F**k with Cats: Hunting an Internet Killer",
+    "network": ["Netflix"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["drama", "documentary"],
+    "season": 1,
+    "title": "Формула 1: Гонять, чтобы выживать",
+    "network": ["BBS"],
+    "premiere": "10.02.2019"
+  },
+  {
+    "type": ["animation"],
+    "season": 1,
+    "title": "Бакуган: Битва Планет",
+    "network": ["BBS", "A+E"],
+    "premiere": "05.01.2019"
+  },
+  {
+    "type": ["drama", "documentary"],
+    "season": 1,
+    "title": "Перемирие",
+    "network": ["HBO"],
+    "premiere": "12.02.2019"
+  },
+  {
+    "type": ["drama", "horror", "fantasy"],
+    "season": 1,
+    "title": "Дракула",
+    "network": ["A+E"],
+    "premiere": "11.02.2019"
+  }
+]
+}
